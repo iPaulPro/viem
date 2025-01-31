@@ -19,5 +19,11 @@ export const lensTestnet = /*#__PURE__*/ defineChain({
       apiUrl: 'https://block-explorer-api.staging.lens.dev/api',
     },
   },
+  contracts: {
+    multicall3: {
+      address: "0x8A44EDE8a6843a997bC0Cc4659e4dB1Da8f91116",
+      blockCreated: 22_325,
+    },
+  },
   testnet: true,
 })
