@@ -1,6 +1,8 @@
 import { defineChain } from '../../utils/chain/defineChain.js'
+import { chainConfig } from '../../zksync/chainConfig.js';
 
 export const lensTestnet = /*#__PURE__*/ defineChain({
+  ...chainConfig,
   id: 37_111,
   name: 'Lens Testnet',
   nativeCurrency: { name: 'GRASS', symbol: 'GRASS', decimals: 18 },
